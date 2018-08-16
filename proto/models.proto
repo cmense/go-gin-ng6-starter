@@ -1,0 +1,29 @@
+syntax = "proto3";
+package models;
+
+message User {
+    uint32 ID = 1;
+    uint32 CreatedAt = 2;
+    uint32 UpdatedAt = 3;
+    string Name = 4;
+    string Phone = 5;
+    Address Address = 6;
+    uint32 AddressID = 7;
+    repeated CreditCard CreditCards = 8;
+}
+
+message Address {
+    uint32 ID = 1;
+    uint32 CreatedAt = 2;
+    uint32 UpdatedAt = 3;
+    string street = 4;
+    string city = 5;
+}
+
+message CreditCard {
+    uint32 ID = 1;
+    uint32 CreatedAt = 2;
+    uint32 UpdatedAt = 3;
+    uint32 number = 4;
+    uint32 UserID = 5;
+}

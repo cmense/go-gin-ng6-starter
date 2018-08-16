@@ -1,0 +1,12 @@
+# IDE
+.idea
+*.iws
+*.iml
+*.ipr
+
+# OS
+*~
+.DS_Store
+
+# vendor / external libs
+vendor/*/

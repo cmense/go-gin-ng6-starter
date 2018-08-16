@@ -1,0 +1,11 @@
+version: "3"
+services:
+    postgres_dev:
+        container_name: 'postgres_dev'
+        image: postgres:9.6
+        ports:
+          - "5432:5432"
+        environment:
+          - POSTGRES_DB=${POSTGRES_DB:-go_db}
+          - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-go_pwd}
+          - POSTGRES_USER=${POSTGRES_USER:-go_usr}
