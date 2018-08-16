@@ -29,7 +29,7 @@ Alternatively, use git to clone the project:
 $ git clone https://github.com/app8izer/go-gin-ng6-starter.git
 ```
 
-## Install Golang Dependencies via Govendor
+## Install Golang Dependencies via govendor
 
 If not yet installed, install govendor via:
 
@@ -45,9 +45,9 @@ $ govendor sync
 
 in root of project.
 
-## Install Angular Dependencies
+## Install Angular Dependencies via npm/yarn
 
-If not yet installed, install node + npm/yarn ,e.g. for Mac OS run
+If not yet installed, install node + npm/yarn, e.g. for Mac OS run
 
 ```sh
 $ brew install yarn 
@@ -63,7 +63,7 @@ $ yarn install
 
 in root of project.
 
-## Install Protobuf Compiler (protoc) & protobuf.js 
+## Install Protobuf Compiler (protoc)
 
 If not yet installed, [install protoc](http://google.github.io/proto-lens/installing-protoc.html), e.g. for Mac OS:
 

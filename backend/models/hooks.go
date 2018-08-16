@@ -16,3 +16,25 @@ func (u *User) BeforeUpdate(scope *gorm.Scope) error {
     scope.SetColumn("UpdatedAt", time.Now().UnixNano())
     return nil
 }
+
+func (a *Address) BeforeCreate(scope *gorm.Scope) error {
+    scope.SetColumn("CreatedAt", time.Now().UnixNano())
+    scope.SetColumn("UpdatedAt", time.Now().UnixNano())
+    return nil
+}
+
+func (a *Address) BeforeUpdate(scope *gorm.Scope) error {
+    scope.SetColumn("UpdatedAt", time.Now().UnixNano())
+    return nil
+}
+
+func (c *CreditCard) BeforeCreate(scope *gorm.Scope) error {
+    scope.SetColumn("CreatedAt", time.Now().UnixNano())
+    scope.SetColumn("UpdatedAt", time.Now().UnixNano())
+    return nil
+}
+
+func (c *CreditCard) BeforeUpdate(scope *gorm.Scope) error {
+    scope.SetColumn("UpdatedAt", time.Now().UnixNano())
+    return nil
+}
