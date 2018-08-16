@@ -4,7 +4,7 @@
 Starter project template using the following libraries/frameworks:
 
 - [Gin Gonic](https://gin-gonic.github.io/gin/)
-- [Govendor]() 
+- [Govendor](https://github.com/kardianos/govendor) 
 - [Angular](https://angular.io/)
 - [Protocol Buffers](https://developers.google.com/protocol-buffers/)
 - [GORM](http://gorm.io/)
@@ -31,12 +31,11 @@ $ git clone https://github.com/app8izer/go-gin-ng6-starter.git
 
 ## Install Dependencies via Govendor
 
-If not yet installed, install govendor via
+If not yet installed, install govendor via:
 
 ```sh
 $ go get -u github.com/kardianos/govendor
 ```
-.
 
 To install the golang dependencies, run
 
