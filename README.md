@@ -68,7 +68,7 @@ in root of project.
 If not yet installed, [install protoc](http://google.github.io/proto-lens/installing-protoc.html), e.g. for Mac OS:
 
 ```sh
-$ brew install protoc
+$ brew install protobuf
 ```
 
 To compile the schema to Go and Typescript sources run
